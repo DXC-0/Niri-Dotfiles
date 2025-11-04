@@ -56,7 +56,8 @@ mv ./dotfiles/* $HOME/.config/
 
 # Autologin
 
-
+sudo sed -i 's/^#\?\s*autologin-user=.*/autologin-user=alerion/' /etc/lightdm/lightdm.conf
+sudo sed -i 's/^#\?\s*autologin-session=.*/autologin-session=niri/' /etc/lightdm/lightdm.conf
 
 # Services 
 

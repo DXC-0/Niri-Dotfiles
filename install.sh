@@ -20,6 +20,9 @@ NIRI_PACKAGES=(
     gvfs
     gvfs-smb
     polkit-gnome
+    grim
+    slurp
+    wl-copy
 )
 
 dnf install -y "${NIRI_PACKAGES[@]}"

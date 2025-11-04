@@ -19,6 +19,7 @@ NIRI_PACKAGES=(
     nautilus
     gvfs
     gvfs-smb
+    polkit-gnome
 )
 
 dnf install -y "${NIRI_PACKAGES[@]}"
@@ -52,6 +53,10 @@ dnf install -y https://nix-community.github.io/nix-installers/lix/x86_64/lix-mul
 # Install dotfiles
 
 mv ./dotfiles/* $HOME/.config/
+
+# Autologin
+
+
 
 # Services 
 

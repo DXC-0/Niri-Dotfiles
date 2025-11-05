@@ -19,7 +19,7 @@ NIRI_PACKAGES=(
     nautilus
     gvfs
     gvfs-smb
-    polkit-gnome
+    mate-polkit
     grim
     slurp
     wl-copy

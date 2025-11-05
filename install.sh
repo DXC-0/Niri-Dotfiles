@@ -19,7 +19,7 @@ NIRI_PACKAGES=(
     nautilus
     gvfs
     gvfs-smb
-    mate-polkit
+    lxqt-policykit-agent
     grim
     slurp
     wl-copy

@@ -22,6 +22,7 @@ NIRI_PACKAGES=(
     lxqt-policykit
     grim
     slurp
+    ddcutil
     wl-copy
 )
 
@@ -51,7 +52,7 @@ flatpak install -y flathub io.github.kolunmi.Bazaar
 
 # Nix Community
 
-dnf install -y https://nix-community.github.io/nix-installers/lix/x86_64/lix-multi-user-2.91.1.rpm
+dnf install -y https://nix-community.github.io/nix-installers/nix/x86_64/nix-multi-user-2.24.10.rpm
 
 # Install dotfiles
 

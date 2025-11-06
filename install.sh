@@ -19,6 +19,7 @@ NIRI_PACKAGES=(
     nautilus
     gvfs
     gvfs-smb
+    blueman
     lxqt-policykit
     grim
     slurp
